@@ -1,0 +1,73 @@
+const foodMenu = [
+  {
+    id: 1,
+    name: "Margherita Pizza",
+    type: "Italian",
+    price: 8.99,
+    isAvailable: true,
+  },
+  {
+    id: 2,
+    name: "Pepperoni Pizza",
+    type: "Italian",
+    price: 10.99,
+    isAvailable: true,
+  },
+  {
+    id: 3,
+    name: "Caesar Salad",
+    type: "Salad",
+    price: 7.49,
+    isAvailable: true,
+  },
+  {
+    id: 4,
+    name: "Veggie Burger",
+    type: "American",
+    price: 9.99,
+    isAvailable: false,
+  },
+  {
+    id: 5,
+    name: "Chicken Biryani",
+    type: "Indian",
+    price: 12.99,
+    isAvailable: true,
+  },
+  {
+    id: 6,
+    name: "Pad Thai",
+    type: "Thai",
+    price: 11.49,
+    isAvailable: true,
+  },
+  {
+    id: 7,
+    name: "Miso Ramen",
+    type: "Japanese",
+    price: 13.99,
+    isAvailable: true,
+  },
+  {
+    id: 8,
+    name: "Tacos Al Pastor",
+    type: "Mexican",
+    price: 9.49,
+    isAvailable: false,
+  },
+  {
+    id: 9,
+    name: "Butter Chicken",
+    type: "Indian",
+    price: 14.99,
+    isAvailable: true,
+  },
+  {
+    id: 10,
+    name: "Churros",
+    type: "Dessert",
+    price: 5.99,
+    isAvailable: true,
+  },
+];
+export default foodMenu;
